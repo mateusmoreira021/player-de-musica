@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Disco</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Disco</h1>
+
+        <div class="music-container" id="music-container">
+            <div class="music-info">
+                <h4 id="title"></h4>
+                <div class="progess-container" id="progess-container">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+
+            <audio src="music/Hit This Hard.mp3" id="audio"></audio>
+
+            <div class="img-container">
+                <img src="img/Hit This Hard.jpg" alt="music-cover" id="cover">
+            </div>
+
+            <div class="nave">
+                <button id="prev" class="action-btn">
+                    <i class="fa fa-backward"></i>
+                </button>
+                <button id="play" class="action-btn action-btn-big">
+                    <i class="fa fa-play"></i>
+                </button>
+                <button id="next" class="action-btn">
+                    <i class="fa fa-forward"></i>
+                </button>
+            </div>
+        </div>
+    
+        <script src="js/app.js" defer></script>
+    </body>
+</html>
